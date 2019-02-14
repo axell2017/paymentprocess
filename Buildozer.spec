@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Plyer GPS example
+title = PIO
 
 # (str) Package name
-package.name = gpsexample
+package.name = piodemo
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = pio.demo
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -29,10 +29,10 @@ source.include_exts = py,png,jpg,kv,atlas
 # version.filename = %(source.dir)s/main.py
 
 # (str) Application versioning (method 2)
-version = 1.0
+version = 0.1
 
-# (list) Application requirements
-requirements = plyer,kivy
+# (list) Application requirements (separate with ,)
+requirements = kivy
 
 # (str) Presplash of the application
 #presplash.filename = %(source.dir)s/data/presplash.png
